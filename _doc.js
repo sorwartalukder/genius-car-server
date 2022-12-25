@@ -1,6 +1,6 @@
 /*
 create server road map
-1. create project folder 
+1. create project folder
 2. npm init -y
 3. npm install express
 4. npm install cors
@@ -34,9 +34,9 @@ const jwt = require('jsonwebtoken'); (index.js file )
 ctrl+j -> node (enter)
 require('crypto').randomBytes(64).toString('hex')
 ACCESS_TOKEN_SECRET=require('crypto').randomBytes(64).toString('hex'); (.env)
-send user client (login) to server 
+send user client (login) to server
 send access token sever to client;
-send headers (authorization: access token) 
+send headers (authorization: access token)
 
 
 function verifyJWT(req, res, next) {
@@ -64,7 +64,7 @@ function verifyJWT(req, res, next) {
                     logOut()
                 }
                 return res.json()
-            })            
+            })
 
 */
 
@@ -88,3 +88,7 @@ select project
 setting
 add: Environment Variables
 */
+
+
+
+// https://wokiee-demos.myshopify.com/
